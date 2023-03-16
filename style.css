@@ -1,0 +1,267 @@
+body {
+    font-family: 'Poppins', sans-serif !important;
+    width: 1535px;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1535px;
+}
+
+.button {
+    border: none;
+    background-color: #3300ff;
+    color: white;
+    padding: 17px;
+    border-radius: 50px;
+    width: 150px;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1210px;
+    padding-right: 215px;
+    padding-left: 215px;
+}
+
+.header__navbar {
+    width: full;
+    height: auto;
+    margin: 0 auto;
+    background-color: #ffffff;
+    max-width: 1150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    color: #333366;
+}
+
+.icon {
+    font-weight: 900;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.icon>span {
+    color: #ff9966;
+}
+
+.navlink>ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.navlink>ul>li {
+    cursor: pointer;
+}
+
+/* .navlink>ul>li>button {
+    border: none;
+    background-color: #3300ff;
+    color: white;
+    padding: 17px;
+    border-radius: 50px;
+    width: 150px;
+    font-size: 17px;
+    font-weight: 600;
+} */
+
+.navlink>ul>li:last-child {
+    padding-left: 20px;
+}
+
+.header {
+    padding-bottom: 60px;
+}
+
+.header>.backgroundImg {
+    position: relative;
+}
+
+.header>.backgroundImg>img {
+    position: absolute;
+    bottom: -90px;
+    left: -23px;
+    z-index: 1;
+}
+
+.header__bottom {
+    width: full;
+    height: auto;
+    margin: 0 auto;
+    background-color: #ffffff;
+    max-width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    color: #333366;
+    padding: 0 80px;
+    z-index: -2;
+}
+
+.header__bottom--left {
+    flex: 0.5;
+}
+
+.header__bottom--right {
+    flex: 0.5;
+}
+
+.left__content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.content__vote {
+    margin-top: 10px;
+}
+
+.content__vote>span {
+    padding: 5px;
+    border-radius: 30px;
+    background-color: #e1ebeb;
+    position: relative;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-weight: 500;
+}
+
+.content__vote>span>i {
+    position: absolute;
+    background-color: #ff9933;
+    color: white;
+    padding: 8px;
+    border-radius: 30px;
+    margin: 0;
+    left: 0;
+    top: 0;
+}
+
+.content__title {
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 60px;
+    color: #333366;
+}
+
+.content__des {
+    color: #666666;
+}
+
+.content__click>button {
+    margin-right: 15px;
+}
+
+.content__click>span {
+    color: #3300ff;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.header__bottom--right {}
+
+.right__content {}
+
+.content__outline--phone {
+    height: 700px;
+    width: 360px;
+    margin: auto;
+    border-radius: 55px;
+    display: flex;
+}
+
+.content__line--phone {
+    height: 660px;
+    width: 320px;
+    margin: auto;
+    position: relative;
+}
+
+.content__line--phone>img {
+    position: absolute;
+    top: -60px;
+    left: 25px;
+    z-index: 2;
+}
+
+.backgroundImg>img:nth-child(2) {
+    left: -120px;
+}
+
+.backgroundImg>img:nth-child(1) {
+    scale: 0.97;
+    margin: 0;
+}
+
+.trust_brands {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.trust_brands>img {
+    scale: 0.9;
+}
+
+.trust_brands>span {
+    font-size: 15px;
+}
+
+.features {
+    margin-top: 110px;
+}
+
+.features__content {}
+
+.features__content--img{
+    display: flex;
+    align-items: center;
+}
+
+.features__content--img > img {
+    scale: 0.9;
+    padding-left: 70px;
+}
+
+.smart {
+    max-width: 1100px;
+    padding-left: 270px;
+    margin-top: 40px;
+    color: #333366;
+}
+
+.smart__content {}
+
+.smart__content--up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.smup__content--left {
+    padding-right: 50px;
+    width: 600px;
+    font-size: 35px;
+    font-weight: 900;
+    border-right: 1px solid black;
+}
+
+.smup__content--right {
+    padding-left: 50px;
+}
