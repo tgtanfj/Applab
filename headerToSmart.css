@@ -54,6 +54,10 @@ body {
     cursor: pointer;
 }
 
+.icon > i {
+    display: none;
+}
+
 .icon>span {
     color: #ff9966;
 }

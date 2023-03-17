@@ -1,0 +1,95 @@
+/* Mobile: width < 740px */
+@media only screen and (max-width: 46.1875em) {
+    .wrapper {
+        max-width: 740px;
+    }
+    .header {
+        width: 400px;
+        margin-left: -40px;
+        height: 900px;
+    }
+    .navlink {
+        display: none;
+    }
+    .icon__text {
+        margin-left: 50px;
+    }
+    .icon {
+        display: flex;
+    }
+    .icon > i {
+        display: block;
+        width: 30px;
+        margin-left: 50px;
+    }
+    .header__bottom {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content__vote > .top {
+        max-width: 300px;
+    }
+
+    .content__title {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .content__des {
+        width: 280px;
+        height: auto;
+    }
+    
+    .content__click {
+        width: 300px;
+    }
+
+    .content__click > button {
+        width: 100px;
+        font-size: 15px;
+    }
+
+    .content__line--phone > img {
+        scale: 0.5;
+        margin: -100px;
+        padding: 0;
+    }
+
+    .backgroundImg > img:nth-child(1) {
+       display: none;
+    }
+    .backgroundImg > img:nth-child(2) {
+        display: none;
+    }
+
+    .trust_brands > img {
+        scale: 0.3;
+        margin-top: -50px;
+    }
+
+    .features__content--img {
+        min-width: 300px;
+    }
+
+    .features__content--img > img {
+        width: 400px;
+        margin-left: -70px;
+        margin-top: -130px;
+    }
+
+    .smup__content--left {
+        border: none;
+    }
+
+    .smart__content--up {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+    }
+}
+/* Tablet: width >= 740px and width < 1024px */
+/* @media only screen and (min-width: 46.1875em) and (max-width: 63.9375em) {
+    
+} */
