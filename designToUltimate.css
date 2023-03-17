@@ -127,7 +127,7 @@
     margin-top: 40px;
     color: #333366;
     margin-bottom: 110px;
-    height: auto;
+    height: 920px;
 }
 
 .ultimate__content {
@@ -161,4 +161,22 @@
 
 .ultimate__content--right > img {
     position: absolute;
+}
+
+.ultimate__content--right > img:nth-child(1) {
+    z-index: -1;
+    top: 130px;
+    margin-left: -32px;
+}
+
+.ultimate__content--right > img:nth-child(2) {
+    z-index: 1;
+    top: 120px;
+    margin-left: 170px;
+}
+
+.ultimate__content--right > img:nth-child(3) {
+    top: 40px;
+    margin-left: 20px;
+    z-index: -2;
 }
