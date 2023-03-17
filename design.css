@@ -1,0 +1,164 @@
+.design {
+    margin-left: 155px;
+    width: auto;
+    display: flex;
+    gap: 100px;
+    padding-bottom: 60px;
+}
+
+.design__left {}
+
+.design__left--img {
+    position: relative;
+}
+
+.design__left--imginside {
+    position: absolute;
+    top: 30px;
+    left: 35px;
+}
+
+.design__right {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+}
+
+.design__right>.content__title {
+    font-size: 35px;
+    width: 400px;
+    color: #333366;
+    line-height: 45px;
+}
+
+.design__right>.content__des {
+    width: 450px;
+    color: #666666;
+}
+
+/* reason */
+
+.reason {
+    padding-top: 140px;
+    width: 100%;
+    border-top: 2px solid #f4f3f3;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.reason__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.reason__content--up {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.reason__content--up__title {
+    color: #333366;
+    font-size: 35px;
+    font-weight: 900;
+    width: 430px;
+    text-align: center;
+    line-height: 45px;
+    margin-bottom: 35px;
+}
+
+.reason__content--up__des {
+    text-align: center;
+    color: #666666;
+    width: 640px;
+    line-height: 25px;
+}
+
+.reason__down--up {
+    display: flex;
+    width: 1050px;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.reason__down--down {
+    display: flex;
+    width: 1050px;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.reason__content--down {
+    margin: 0 auto;
+}
+
+.down__item--logo {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #fee8e8;
+    color: #333 !important;
+    border: none;
+}
+
+.reason__item {
+    align-items: center;
+    width: 470px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.reason__item>.down__item--des {
+    text-align: center;
+}
+
+.ultimate {
+    max-width: auto;
+    padding-left: 270px;
+    margin-top: 40px;
+    color: #333366;
+    margin-bottom: 110px;
+    height: auto;
+}
+
+.ultimate__content {
+
+}
+
+.ultimate__content--left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    float: left;
+}
+
+.ucontent__secondblock {
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.ucontent__secondblock--up {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.ucontent__secondblock--down {
+    display: flex;
+}
+
+.ultimate__content--right {
+    position: relative;
+}
+
+.ultimate__content--right > img {
+    position: absolute;
+}
