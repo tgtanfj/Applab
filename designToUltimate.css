@@ -122,6 +122,7 @@
 }
 
 .ultimate {
+    overflow: hidden;
     max-width: auto;
     padding-left: 270px;
     margin-top: 40px;

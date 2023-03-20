@@ -90,6 +90,7 @@ body {
 
 .header {
     padding-bottom: 60px;
+    overflow: hidden;
 }
 
 .header>.backgroundImg {
@@ -259,6 +260,7 @@ body {
     margin-top: 40px;
     color: #333366;
     margin-bottom: 110px;
+    height: auto;
 }
 
 .smart__content {}
