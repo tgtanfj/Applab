@@ -7,6 +7,15 @@ body {
     height: auto;
 }
 
+.menu.block {
+    height: 90vh;
+    border-top: 1px solid #ccc;
+}
+
+.menu {
+    display: none;
+}
+
 .wrapper {
     margin: 0 auto;
     max-width: 1535px;
@@ -54,11 +63,11 @@ body {
     cursor: pointer;
 }
 
-.icon > i {
+.icon>i {
     display: none;
 }
 
-.icon>span {
+.icon>div>span {
     color: #ff9966;
 }
 
@@ -90,7 +99,8 @@ body {
 
 .header {
     padding-bottom: 60px;
-    overflow: hidden;
+    /* overflow: hidden */
+    position: relative;
 }
 
 .header>.backgroundImg {
@@ -104,7 +114,7 @@ body {
     z-index: 1;
 }
 
-.backgroundImg > img:nth-child(3) {
+.backgroundImg>img:nth-child(3) {
     top: -730px;
 }
 
@@ -184,10 +194,6 @@ body {
     font-weight: 600;
 }
 
-.header__bottom--right {}
-
-.right__content {}
-
 .content__outline--phone {
     height: 700px;
     width: 360px;
@@ -242,12 +248,12 @@ body {
 
 .features__content {}
 
-.features__content--img{
+.features__content--img {
     display: flex;
     align-items: center;
 }
 
-.features__content--img > img {
+.features__content--img>img {
     scale: 0.9;
     padding-left: 70px;
 }
@@ -295,15 +301,15 @@ body {
     width: 1050px;
 }
 
-.content__down--item1 > .down__item--title {
+.content__down--item1>.down__item--title {
     color: #ff6666;
 }
 
-.content__down--item2 > .down__item--title {
+.content__down--item2>.down__item--title {
     color: #3366ff;
 }
 
-.content__down--item3 > .down__item--title {
+.content__down--item3>.down__item--title {
     color: #339966;
 }
 
@@ -328,7 +334,7 @@ body {
     gap: 20px;
 }
 
-.content__down--item1 > .down__item--logo {
+.content__down--item1>.down__item--logo {
     width: 90px;
     height: 90px;
     border-radius: 50%;
@@ -336,7 +342,7 @@ body {
     border: none;
 }
 
-.content__down--item2 > .down__item--logo {
+.content__down--item2>.down__item--logo {
     width: 90px;
     height: 90px;
     border-radius: 50%;
@@ -344,7 +350,7 @@ body {
     border: none;
 }
 
-.content__down--item3 > .down__item--logo {
+.content__down--item3>.down__item--logo {
     width: 90px;
     height: 90px;
     border-radius: 50%;
@@ -360,7 +366,7 @@ body {
     padding: 0;
 }
 
-.down__item--logo > img {
+.down__item--logo>img {
     display: block;
     width: 65%;
     /* color: #ff6666; */
@@ -389,6 +395,6 @@ body {
     filter: invert(29%) sepia(88%) saturate(2420%) hue-rotate(219deg) brightness(101%) contrast(102%);
 }
 
-.img3{
+.img3 {
     filter: invert(48%) sepia(43%) saturate(544%) hue-rotate(98deg) brightness(96%) contrast(96%);
 }
