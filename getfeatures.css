@@ -425,6 +425,10 @@
     gap: 40px;
 }
 
+.footer__choose > ul > li {
+    cursor: pointer;
+}
+
 .footer__icons {
     display: flex;
     gap: 20px;
@@ -433,6 +437,7 @@
 .footer__icons > i {
     color: #273043;
     font-size: 30px;
+    cursor: pointer;
 }
 
 .footer__icons > i:nth-child(3) {
@@ -444,6 +449,10 @@
     color: #5f636e;
     font-size: 13px;
     margin-top: 40px;
+}
+
+.footer__logo > .icon > .icon__text {
+    color: #ff9966;
 }
 
 
